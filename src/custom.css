@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+
+.bg-color-brand-primary-color {
+    background-color: #4c3398;
+}
+.bg-color-brand-yellow-color{
+    background-color: #ffd300;
+}
+
+.text-color-brand-primary-color {
+    color: #5d3ebc;
+}
+.weight-600{
+    font-weight: 600;
+}
+.height-48{
+    height: 48px;
+}
+
+.headers{
+    height: 45px;
+}
+.height-500{
+    height: 500px;
+}
+.heroSectionGradient{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.heroSectionGradient::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: linear-gradient(to right, #5d3ebc 0%, transparent 100%);
+    z-index: 10;
+    inset: 0;
+}
+.z-index-20{
+    z-index: 20;
+}
+.transform-50{
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.flag-select {
+    padding-bottom: 0!important;
+}
+
+.flag-select button {
+    height: 56px;
+    border: 2px solid #eee;
+}
+.input-phone{
+    height: 56px;
+    border: 2px solid #eee;
+    border-radius: 2px;
+    color: #333;
+}
+.input-phone:hover{
+    transition: all 0.3s ease-in-out;
+    border-color: #5d3ebc;
+}
+.input-phone:focus{
+    border-color: #5d3ebc;
+    outline: none;
+    font-size: 14px;
+}
+.phone-span{
+    color: #838287;
+    font-size: 15px;
+    top: 0;
+}
+
+.input-phone:focus + .phone-span{
+    transition: all 0.3s ease 0s;
+    color: #5d3ebc;
+    font-size: 12px;
+    top: -18px;
+}
+
+.flex-1{
+    flex: 1 1 0%;
+}
+
+.hover-btn:hover{
+    transition: all 0.3s ease 0s;
+    color: #ffd300;
+    background-color: #5d3ebc;
+}
+
+.col-xs-1-10,
+.col-sm-1-10 {
+  position: relative;
+  min-height: 1px;
+}
+
+.col-xs-1-10 {
+  width: 10%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-10 {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-1-10 {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1-10 {
+    width: 10%;
+    float: left;
+  }
+}
+.hover-cat{
+    color: #3e3e3e;
+}
+.hover-cat:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(93 62 188 / 10%);
+    color: #5d3ebc;
+}
+.bg-image-app{
+    background-color: #5d3ebc;
+    background-image: url("https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png");
+}
+.bth::before{
+    content: "";
+    background-color: #5d3ebc;
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    translate: -300%;
+    transform: translateY(250%);
+}
+
+.downCollapse{
+    background-color: rgb(93 62 188 / 10%);
+    transition: all 0.3s ease 0s;
+}
+.downCollapse-180{
+    background-color: rgb(93 62 188 / 10%);
+    transform: rotate(180deg);
+    transition: all 0.3s ease 0s;
+}
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
